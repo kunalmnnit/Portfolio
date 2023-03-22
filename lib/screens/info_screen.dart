@@ -50,10 +50,6 @@ class InfoScreen extends StatelessWidget {
           [
             Icon(Icons.email),
             'ksevkani495@gmail.com',
-          ],
-          [
-            Icon(Icons.phone),
-            '+91-7976127003',
           ]
         ]
             .map(
@@ -72,12 +68,7 @@ class InfoScreen extends StatelessWidget {
             .toList(),
         ButtonBar(
           children: [
-            [FontAwesome5Brands.github, 'https://github.com/kunalmnnit'],
-            [
-              FontAwesome5Brands.instagram,
-              'https://instagram.com/kunal_cap_73'
-            ],
-            [FontAwesome5Brands.facebook, 'https://facebook.com/kunal.sevkani1']
+            [FontAwesome5Brands.github, 'https://github.com/kunalmnnit']
           ]
               .map(
                 (e) => Tooltip(
